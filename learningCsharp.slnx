@@ -2,4 +2,5 @@
   <Project Path="CP3_peregruzka_operatorov/CP3_peregruzka_operatorov.csproj" />
   <Project Path="CP4/CP4.csproj" Id="eb0015a9-5b1e-4797-885c-a78a288e5e37" />
   <Project Path="CP5_oshibki_try_catch/CP5_oshibki_try_catch.csproj" Id="5445622c-3a85-4b69-8d46-42c7cc551481" />
+  <Project Path="CP6_trycatch_addition/CP6_trycatch_addition.csproj" Id="35080f96-e71c-47ab-aeca-ef54fe333c30" />
 </Solution>
