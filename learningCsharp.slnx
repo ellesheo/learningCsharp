@@ -4,4 +4,5 @@
   <Project Path="CP5_oshibki_try_catch/CP5_oshibki_try_catch.csproj" Id="5445622c-3a85-4b69-8d46-42c7cc551481" />
   <Project Path="CP6_trycatch_addition/CP6_trycatch_addition.csproj" Id="35080f96-e71c-47ab-aeca-ef54fe333c30" />
   <Project Path="CP7_throw/CP7_throw.csproj" Id="c685122b-1dd5-4ee2-aadd-7ad063eba169" />
+  <Project Path="CP8_checked/CP8_checked.csproj" Id="042505ce-072b-4b47-83c8-20a81e799777" />
 </Solution>
