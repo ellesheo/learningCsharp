@@ -4,7 +4,13 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            var a = new Money(100m);
+            var b = new Money(30m);
+            Console.WriteLine(a + b);
+            Console.WriteLine(a - b);
+            Console.WriteLine(-a);
+            a += b;
+            Console.WriteLine(a);
         }
     }
 }
