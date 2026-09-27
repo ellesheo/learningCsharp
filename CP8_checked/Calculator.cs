@@ -20,7 +20,7 @@ namespace CP8_checked
             }
             catch (OverflowException)
             {
-                Console.WriteLine("Сумма превысила диапазон для типа int - возвращаем int.MaxValue");
+                Console.WriteLine("Сумма превысила диапазон для типа int");
                 return int.MaxValue;
             }
         }
