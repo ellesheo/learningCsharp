@@ -10,13 +10,13 @@ namespace CP5_oshibki_try_catch
             config["timeout"] = "30";
             config["retries"] = "тридцать";
             var converter = new ConfigConverter();
-            Console.WriteLine("--- ключ есть, значение корректное ---");
+            Console.WriteLine("ключ есть и значение корректно");
             Console.WriteLine(converter.GetInt(config, "timeout"));
             Console.WriteLine();
-            Console.WriteLine("--- ключа нет ---");
+            Console.WriteLine("ключа нет");
             Show(converter, config, "missing");
             Console.WriteLine();
-            Console.WriteLine("--- значение не число ---");
+            Console.WriteLine("значение некорректно");
             Show(converter, config, "retries");
         }
 
