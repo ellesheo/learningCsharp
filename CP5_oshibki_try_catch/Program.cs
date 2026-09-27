@@ -28,8 +28,8 @@ namespace CP5_oshibki_try_catch
             }
             catch (InvalidOperationException ex)
             {
-                Console.WriteLine($"Сообщение: {ex.Message}");
-                Console.WriteLine($"Исходная причина: {ex.InnerException?.Message}");
+                Console.WriteLine($"Ошибка: {ex.Message}");
+                Console.WriteLine($"Причина: {ex.InnerException?.Message}");
                 foreach (DictionaryEntry entry in ex.Data)
                     Console.WriteLine($"  {entry.Key}: {entry.Value}");
             }

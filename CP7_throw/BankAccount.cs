@@ -16,7 +16,7 @@ namespace CP7_throw
         public decimal RequestedAmount { get; }
         public decimal AvailableBalance { get; }
         public InsufficientFundsException(decimal requestedAmount, decimal availableBalance)
-            : base($"Недостаточно средств: запрошено {requestedAmount:0.00}, доступно {availableBalance:0.00}.")
+            : base($"Не хватает денег: надо {requestedAmount}, есть {availableBalance}")
         {
             RequestedAmount = requestedAmount;
             AvailableBalance = availableBalance;
@@ -26,7 +26,7 @@ namespace CP7_throw
     {
         public string AccountId { get; }
         public InvalidAccountException(string accountId)
-            : base($"Некорректный номер счёта \"{accountId}\". Требуется ровно 6 цифр.")
+            : base($"Неверный номер счета {accountId}, нужно 6 цифр")
         {
             AccountId = accountId;
         }

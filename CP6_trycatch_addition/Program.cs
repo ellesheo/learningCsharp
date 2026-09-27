@@ -16,7 +16,7 @@
             }
             catch (OverflowException ex)
             {
-                Console.WriteLine($"Наверху поймали OverflowException: {ex.Message}");
+                Console.WriteLine($"Поймали переполнение: {ex.Message}");
             }
         }
     }

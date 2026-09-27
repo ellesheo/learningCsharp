@@ -21,17 +21,17 @@ namespace CP6_trycatch_addition
                 }
                 catch (FormatException ex)
                 {
-                    Console.WriteLine($"Предупреждение: \"{value}\" не является числом.");
+                    Console.WriteLine($"{value} не число");
                 }
                 catch (OverflowException ex)
                 {
-                    Console.WriteLine($"Критическая ошибка: \"{value}\" не помещается в int.");
+                    Console.WriteLine($"{value} не влезает в int");
                     throw;
                 }
                 finally
                 {
                     processed++;
-                    Console.WriteLine($"Обработано элементов: {processed}");
+                    Console.WriteLine($"обработано {processed}");
                 }
             }
             return sum;

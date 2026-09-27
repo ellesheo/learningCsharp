@@ -15,14 +15,14 @@ namespace CP5_oshibki_try_catch
             catch (KeyNotFoundException ex)
             {
                 var wrapped = new InvalidOperationException(
-                    $"Настройка \"{key}\" не найдена в конфигурации.", ex);
+                    $"Нет настройки {key}", ex);
                 wrapped.Data["ConfigKey"] = key;
                 throw wrapped;
             }
             catch (FormatException ex)
             {
                 var wrapped = new InvalidOperationException(
-                    $"Настройка \"{key}\" содержит не число.", ex);
+                    $"Настройка {key} не число", ex);
                 wrapped.Data["ConfigKey"] = key;
                 wrapped.Data["RawValue"] = config[key];
                 throw wrapped;
