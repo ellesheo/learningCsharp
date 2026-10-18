@@ -1,4 +1,4 @@
-﻿namespace CP10_sboistva_and_indeksatori_interface
+﻿namespace CP11_sboistva_and_indeksatori_interface
 {
     internal class Program
     {

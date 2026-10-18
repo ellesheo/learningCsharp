@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace CP10_var2
+namespace CP11_var2
 {
     public interface IAnimal
     {

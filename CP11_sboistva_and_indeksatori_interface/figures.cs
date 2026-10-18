@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace CP10_sboistva_and_indeksatori_interface
+namespace CP11_sboistva_and_indeksatori_interface
 {
     public interface IShape
     {

@@ -1,4 +1,4 @@
-﻿namespace CP10_var2
+﻿namespace CP11_var2
 {
     internal class Program
     {
