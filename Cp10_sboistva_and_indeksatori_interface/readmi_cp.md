@@ -1,4 +1,4 @@
-﻿<img width="544" height="482" alt="image" src="screen.png" />
+﻿<img width="775" height="725" alt="image" src="screen.png" />
 
 Вариант 1. Геометрические фигуры
 
