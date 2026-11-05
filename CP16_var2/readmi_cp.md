@@ -15,8 +15,4 @@ _ — "неизвестное событие".
 
 Проверочные ключи
 
-new AttackEvent("Герой", "Дракон", 75) — "КРИТИЧЕСКИЙ УДАР: ..."
-new AttackEvent("Герой", "Дракон", 10) — обычная строка лога об атаке
-new HealEvent("Жрец", "Жрец", 20) — "... подлечился сам"
-new HealEvent("Жрец", "Воин", 20) — обычная строка лога о лечении
-new DeathEvent("Дракон") — "Дракон погиб"
+<img width="1140" height="230" alt="image" src="https://github.com/user-attachments/assets/11b0889e-91eb-45a7-8185-e8dc89c69fa8" />
