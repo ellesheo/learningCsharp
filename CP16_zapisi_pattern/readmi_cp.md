@@ -15,8 +15,4 @@ _ — "неизвестная фигура".
 
 Проверочные ключи
 
-new Circle(new Point(0, 0), 5) — "окружность в начале координат"
-new Circle(new Point(3, 4), 0) — "вырожденная окружность (точка)"
-new Circle(new Point(3, 4), 5) — строка с радиусом 5
-new Rectangle(new Point(1, 1), new Point(1, 1)) — "вырожденный прямоугольник (точка)"
-new Rectangle(new Point(0, 0), new Point(4, 3)) — строка с размерами
+<img width="1040" height="221" alt="image" src="https://github.com/user-attachments/assets/14e820dc-79fe-44d0-a637-562d2ac970d0" />
