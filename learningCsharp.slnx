@@ -1,5 +1,5 @@
 <Solution>
-  <Project Path="13_var2/CP13_var2.csproj" Id="96dc7e93-e4bb-444d-a4db-8d488f4d3182" />
+  <Project Path="CP13_var2/CP13_var2.csproj" Id="96dc7e93-e4bb-444d-a4db-8d488f4d3182" />
   <Project Path="CP11_sboistva_and_indeksatori_interface/CP11_sboistva_and_indeksatori_interface.csproj" Id="53fb5f82-3d6e-4297-9405-e868b060edbf" />
   <Project Path="CP11_var2/CP11_var2.csproj" Id="24ba1dbc-7a78-4998-bad1-30990c708e2f" />
   <Project Path="CP13_structuri/CP13_structuri.csproj" Id="6903c954-fc15-4bf6-8fcb-c967ee73a1cc" />
@@ -17,5 +17,5 @@
   <Project Path="CP7_throw/CP7_throw.csproj" Id="c685122b-1dd5-4ee2-aadd-7ad063eba169" />
   <Project Path="CP8_checked/CP8_checked.csproj" Id="042505ce-072b-4b47-83c8-20a81e799777" />
   <Project Path="CP9_oshibki_nadezhno/CP9_oshibki_nadezhno.csproj" Id="a075fff3-6942-4100-be15-76247a6ed603" />
-  <Project Path="delegaty_i_lyambdi/CP19_delegaty_i_lyambdi.csproj" Id="6da46c12-3600-4e43-b679-322cd72685d6" />
+  <Project Path="CP19_delegaty_i_lyambdi/CP19_delegaty_i_lyambdi.csproj" Id="6da46c12-3600-4e43-b679-322cd72685d6" />
 </Solution>
