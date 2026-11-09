@@ -5,6 +5,7 @@
   <Project Path="CP13_structuri/CP13_structuri.csproj" Id="6903c954-fc15-4bf6-8fcb-c967ee73a1cc" />
   <Project Path="CP16_var2/CP16_var2.csproj" Id="a2a77c19-451b-4542-b668-92114f2af2fb" />
   <Project Path="CP16_zapisi_pattern/CP16_zapisi_pattern.csproj" Id="dbe7120e-034e-4d4d-a507-5a0d35978b46" />
+  <Project Path="CP22_events/CP22_events.csproj" Id="6bb7b9fd-f468-4507-acc7-b369252de3f2" />
   <Project Path="CP3_peregruzka_operatorov/CP3_peregruzka_operatorov.csproj" />
   <Project Path="CP4/CP4.csproj" Id="eb0015a9-5b1e-4797-885c-a78a288e5e37" />
   <Project Path="CP5_oshibki_try_catch/CP5_oshibki_try_catch.csproj" Id="5445622c-3a85-4b69-8d46-42c7cc551481" />
