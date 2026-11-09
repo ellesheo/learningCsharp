@@ -8,6 +8,7 @@
   <Project Path="CP22_events/CP22_events.csproj" Id="6bb7b9fd-f468-4507-acc7-b369252de3f2" />
   <Project Path="CP24_ogranichennie_klassi/CP24_ogranichennie_klassi.csproj" Id="4fd9c502-80fb-4a19-bf5a-f5561edf260c" />
   <Project Path="CP26_ogranicheniya_class_struct/CP26_ogranicheniya_class_struct.csproj" Id="b2944d06-1158-4f09-b8f2-21a40007f055" />
+  <Project Path="CP29_obobshennie_interfeisi/CP29_obobshennie_interfeisi.csproj" Id="9e5b68cd-56e0-4cce-bfe9-864a455501ff" />
   <Project Path="CP3_peregruzka_operatorov/CP3_peregruzka_operatorov.csproj" />
   <Project Path="CP4/CP4.csproj" Id="eb0015a9-5b1e-4797-885c-a78a288e5e37" />
   <Project Path="CP5_oshibki_try_catch/CP5_oshibki_try_catch.csproj" Id="5445622c-3a85-4b69-8d46-42c7cc551481" />
