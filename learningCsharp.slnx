@@ -1,15 +1,17 @@
 <Solution>
-  <Project Path="CP13_var2/CP13_var2.csproj" Id="96dc7e93-e4bb-444d-a4db-8d488f4d3182" />
   <Project Path="CP11_sboistva_and_indeksatori_interface/CP11_sboistva_and_indeksatori_interface.csproj" Id="53fb5f82-3d6e-4297-9405-e868b060edbf" />
   <Project Path="CP11_var2/CP11_var2.csproj" Id="24ba1dbc-7a78-4998-bad1-30990c708e2f" />
   <Project Path="CP13_structuri/CP13_structuri.csproj" Id="6903c954-fc15-4bf6-8fcb-c967ee73a1cc" />
+  <Project Path="CP13_var2/CP13_var2.csproj" Id="96dc7e93-e4bb-444d-a4db-8d488f4d3182" />
   <Project Path="CP16_var2/CP16_var2.csproj" Id="a2a77c19-451b-4542-b668-92114f2af2fb" />
   <Project Path="CP16_zapisi_pattern/CP16_zapisi_pattern.csproj" Id="dbe7120e-034e-4d4d-a507-5a0d35978b46" />
+  <Project Path="CP19_delegaty_i_lyambdi/CP19_delegaty_i_lyambdi.csproj" Id="6da46c12-3600-4e43-b679-322cd72685d6" />
   <Project Path="CP22_events/CP22_events.csproj" Id="6bb7b9fd-f468-4507-acc7-b369252de3f2" />
   <Project Path="CP24_ogranichennie_klassi/CP24_ogranichennie_klassi.csproj" Id="4fd9c502-80fb-4a19-bf5a-f5561edf260c" />
   <Project Path="CP26_ogranicheniya_class_struct/CP26_ogranicheniya_class_struct.csproj" Id="b2944d06-1158-4f09-b8f2-21a40007f055" />
   <Project Path="CP29_obobshennie_interfeisi/CP29_obobshennie_interfeisi.csproj" Id="9e5b68cd-56e0-4cce-bfe9-864a455501ff" />
   <Project Path="CP30_metodi_rasshireniya/CP30_metodi_rasshireniya.csproj" Id="65a03cd8-28db-49a2-90f6-8c3376961ba5" />
+  <Project Path="CP37_linq_zaprosi/CP37_linq_zaprosi.csproj" Id="bf0527a7-dbef-4b72-80c1-c69cada056f0" />
   <Project Path="CP3_peregruzka_operatorov/CP3_peregruzka_operatorov.csproj" />
   <Project Path="CP4/CP4.csproj" Id="eb0015a9-5b1e-4797-885c-a78a288e5e37" />
   <Project Path="CP5_oshibki_try_catch/CP5_oshibki_try_catch.csproj" Id="5445622c-3a85-4b69-8d46-42c7cc551481" />
@@ -17,5 +19,4 @@
   <Project Path="CP7_throw/CP7_throw.csproj" Id="c685122b-1dd5-4ee2-aadd-7ad063eba169" />
   <Project Path="CP8_checked/CP8_checked.csproj" Id="042505ce-072b-4b47-83c8-20a81e799777" />
   <Project Path="CP9_oshibki_nadezhno/CP9_oshibki_nadezhno.csproj" Id="a075fff3-6942-4100-be15-76247a6ed603" />
-  <Project Path="CP19_delegaty_i_lyambdi/CP19_delegaty_i_lyambdi.csproj" Id="6da46c12-3600-4e43-b679-322cd72685d6" />
 </Solution>
