@@ -78,16 +78,8 @@
                 .OrderByDescending(row => row.Average);
 
             foreach (var row in report)
-                Console.WriteLine($"{row.Course}: балл {row.Average:0.00} ({Label(row.Average)}), студентов {row.Students}");
+                Console.WriteLine($"{row.Course}: балл {row.Average:0.00}, студентов {row.Students}");
         }
-
-        static string Label(double average) => average switch
-        {
-            >= 4.5 => "отлично",
-            >= 4 => "хорошо",
-            >= 3 => "средне",
-            _ => "плохо"
-        };
 
         static Enrollment ReadEnrollment(List<Student> students)
         {

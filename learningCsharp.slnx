@@ -12,6 +12,7 @@
   <Project Path="CP29_obobshennie_interfeisi/CP29_obobshennie_interfeisi.csproj" Id="9e5b68cd-56e0-4cce-bfe9-864a455501ff" />
   <Project Path="CP30_metodi_rasshireniya/CP30_metodi_rasshireniya.csproj" Id="65a03cd8-28db-49a2-90f6-8c3376961ba5" />
   <Project Path="CP37_linq_zaprosi/CP37_linq_zaprosi.csproj" Id="bf0527a7-dbef-4b72-80c1-c69cada056f0" />
+  <Project Path="CP39_iteratori/CP39_iteratori.csproj" Id="ab493756-5ecb-4a06-98eb-38afd01d24c0" />
   <Project Path="CP3_peregruzka_operatorov/CP3_peregruzka_operatorov.csproj" />
   <Project Path="CP4/CP4.csproj" Id="eb0015a9-5b1e-4797-885c-a78a288e5e37" />
   <Project Path="CP5_oshibki_try_catch/CP5_oshibki_try_catch.csproj" Id="5445622c-3a85-4b69-8d46-42c7cc551481" />
