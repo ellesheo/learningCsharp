@@ -5,10 +5,6 @@ using System.Text;
 
 namespace CP39_iteratori
 {
-    public enum Level { Info, Warning, Error }
-
-    public record Message(Level Level, string Text);
-
     public class InvalidInputException : Exception
     {
         public InvalidInputException() { }

@@ -20,80 +20,38 @@
             Console.WriteLine($"от нового к старому (Reverse): {string.Join(", ", numbers.Reverse())}");
 
             Console.WriteLine();
-            Console.WriteLine("Буфер на 3, но уже с сообщениями");
+            Console.WriteLine("Свои числа");
             Console.WriteLine();
 
-            CircularBuffer<Message> log = new(3);
-            log.Add(new Message(Level.Info, "старт"));
-            log.Add(new Message(Level.Warning, "мало места"));
-            log.Add(new Message(Level.Error, "файл не найден"));
-            log.Add(new Message(Level.Info, "повтор"));
+            CircularBuffer<int> own = new(ReadNumber("Ёмкость буфера: "));
 
-            foreach (Message message in log)
-                Console.WriteLine(Format(message));
+            while (true)
+            {
+                int value = ReadNumber("Число (0 - закончить ввод): ");
 
-            Console.WriteLine();
-            Console.WriteLine("Своё сообщение");
-            Console.WriteLine();
+                if (value == 0)
+                    break;
 
-            log.Add(ReadMessage());
+                own.Add(value);
+                Console.WriteLine($"в буфере: {string.Join(", ", own)}");
+            }
 
             Console.WriteLine();
-            Console.WriteLine("от старого к новому (foreach):");
-
-            foreach (Message message in log)
-                Console.WriteLine(Format(message));
-
-            Console.WriteLine();
-            Console.WriteLine("от нового к старому (Reverse):");
-
-            foreach (Message message in log.Reverse())
-                Console.WriteLine(Format(message));
+            Console.WriteLine($"от старого к новому (foreach): {string.Join(", ", own)}");
+            Console.WriteLine($"от нового к старому (Reverse): {string.Join(", ", own.Reverse())}");
         }
 
-        static string Format(Message message) => $"{Mark(message.Level)}: {message.Text}";
-
-        static string Mark(Level level) => level switch
-        {
-            Level.Info => "обычное",
-            Level.Warning => "важное",
-            Level.Error => "ошибка",
-            _ => "непонятное"
-        };
-
-        static Message ReadMessage()
+        static int ReadNumber(string prompt)
         {
             while (true)
             {
-                Console.Write("Сообщение (error, текст): ");
+                Console.Write(prompt);
 
-                try
-                {
-                    return ParseMessage(Console.ReadLine() ?? "");
-                }
-                catch (InvalidInputException ex)
-                {
-                    Console.WriteLine(ex.Message);
-                }
+                if (int.TryParse((Console.ReadLine() ?? "").Trim(), out int value))
+                    return value;
+
+                Console.WriteLine("Это не число");
             }
-        }
-
-        static Message ParseMessage(string line)
-        {
-            string[] parts = line.Split(',');
-
-            if (parts.Length != 2)
-                throw new InvalidInputException("Нужно два поля: error, текст");
-
-            if (!Enum.TryParse(parts[0].Trim(), true, out Level level) || !Enum.IsDefined(typeof(Level), level))
-                throw new InvalidInputException($"Нет уровня {parts[0].Trim()}. Есть Info, Warning, Error");
-
-            string text = parts[1].Trim();
-
-            if (text.Length == 0)
-                throw new InvalidInputException("Текст пустой");
-
-            return new Message(level, text);
         }
     }
 }
